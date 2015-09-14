@@ -35,6 +35,10 @@ TestResult.xml
 [Rr]eleasePS/
 dlldata.c
 
+# log
+App_Data/
+
+
 *_i.c
 *_p.c
 *_i.h
@@ -229,3 +233,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+*.txt
