@@ -90,7 +90,10 @@
     <Compile Include="send_massage_to_all.ashx.cs">
       <DependentUpon>send_massage_to_all.ashx</DependentUpon>
     </Compile>
-    <Compile Include="send_msg_to_users_agentid.ashx.cs" />
+    <Content Include="send_msg_to_users_agentid.ashx.cs" />
+    <Compile Include="send_msg_users_agentid.ashx.cs">
+      <DependentUpon>send_msg_users_agentid.ashx</DependentUpon>
+    </Compile>
     <Compile Include="send_pictext_to_all.ashx.cs">
       <DependentUpon>send_pictext_to_all.ashx</DependentUpon>
     </Compile>
@@ -109,6 +112,7 @@
     <Content Include="send_massage_to_all.ashx" />
     <Content Include="send_msg_to_user.ashx" />
     <Content Include="send_pictext_to_all.ashx" />
+    <Content Include="send_msg_users_agentid.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
